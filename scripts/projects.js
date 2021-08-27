@@ -67,7 +67,7 @@ var achievements = [
 ]
 var about = [
     "Lokshahir AnnaBhau Sathe Scholarship (Rs.25,000) for excellent performance in the HSC Examination (2019) <br> Maulana Abdul Kalam Azad Scholarship (Rs.15,000) for excellent performance in SSC Examination (2017)",
-    "I was selected for the Flipkart Girls Wanna Code '21 cohort. These selections were done on the basis of an online coding test with 3 questions to be solved in 90 minutes. Around 6000 girls from colleges all over India undertook this test and I was amongst the top 200 who were selected. For the next 4 months the selected students were offered help with the placement preparation (online coding practice and interview preparation) by some of the best SDEs at flipkart. ",
+    "I was selected for the Flipkart Girls Wanna Code '21 cohort. These selections were done on the basis of an online coding test with 3 questions to be solved in 90 minutes. Around 6000 girls from colleges all over India undertook this test and I was amongst the top 150 who were selected. For the next 4 months the selected students were offered help with the placement preparation (online coding practice and interview preparation) by some of the best SDEs at flipkart. ",
     "Code For Good is a 24 hr hackathon arranged by JP Morgan Chase where I collaberated with 6 more students from various parts of the country to come up with an innovative solution to help an NGO. I was one of the 60 winners from over 8000+ initial participants. During the 24 hrs I have gained many new skills, learnt more about the working of the firm and built my professional network while making a difference for an non-profit organization. As a winner of the hackathon I recieved a latest I-pad."
     ]
 var images1 = [
