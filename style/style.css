@@ -111,17 +111,25 @@ body {
   width: 100%;
   height: 60%;
 }
+ul#contactme{
+  padding-inline-start: 0;
+}
+ul#contactme li{
+  display: inline;
+  margin: 5px;
+}
+
 @media only screen and (max-width: 768px) {
   .aboutme-text {
-    margin-top: 25%;
     border: #eecad4;
     font-size: 100%;
   }
   .aboutme-img {
     margin-left: 2%;
     width: 100%;
-    height: 90%;
+    height: 60%;
   }
+  
   .container1 {
     margin-top: 2%;
     margin-left: auto;
