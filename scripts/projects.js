@@ -4,12 +4,13 @@ const api_url =
 //--------------------------------------------------------------------------------------------------------
 var prj_body = []
 
-var images = ["images/projects/python.png",
+var images = [
+    "images/projects/bitcoin.jpg",
+    "images/projects/python.png",
     "images/projects/college.png",
     "images/projects/bakeforchange.png",
     "images/projects/yoga.jpg",
-    "images/projects/thriftr.jpg",
-    "images/projects/bitcoin.jpg",
+    "images/projects/thriftr.jpg"
 ];
 
 var i;
@@ -45,7 +46,7 @@ function addCard() {
         '<div class="card" data-aos="flip-left" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out">' +
         '<div class="card-body text-center">' +
         '<img src="" alt="project-img" class="projImg "></img>' +
-        '<h5 class="card-title " > </h5>' +
+        '<h4 class="card-title" > </h4>' +
         '<h5 class="body " > </h5>' +
         '<button type="button" class="btn btn-primary" onclick="" >Github</button>' +
         '</div>' +
@@ -66,7 +67,7 @@ function setAttributes(link, number) {
     let button = document.getElementsByClassName("container1")[1].getElementsByClassName("btn")[number];
     link = "location.href='" + link + "'";
     button.setAttribute("onclick", link);
-    
+
     //set image attribute 
     var img = document.getElementsByClassName("projImg")[number];
     img.src = images[number];
@@ -97,7 +98,7 @@ for (i = 0; i < achievements.length; i++) {
         '<div class="card" data-aos="flip-left" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out">' +
         '<div class="card-body text-center">' +
         '<img src="" alt="ach-img" class="achImg "></img>' +
-        '<h5 class="card-title " > </h5>' +
+        '<h5 class="card-title" > </h5>' +
         '<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" onclick="" > Read More!</button>' +
         '</div>' +
         '</div>' +
